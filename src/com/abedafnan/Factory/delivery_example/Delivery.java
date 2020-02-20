@@ -1,4 +1,4 @@
-package com.abedafnan.Factory;
+package com.abedafnan.Factory.delivery_example;
 
 public interface Delivery {
 

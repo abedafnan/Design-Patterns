@@ -1,6 +1,6 @@
-package com.abedafnan.Factory.deliverymodels;
+package com.abedafnan.Factory.delivery_example.deliverymodels;
 
-import com.abedafnan.Factory.Delivery;
+import com.abedafnan.Factory.delivery_example.Delivery;
 
 public class AirDelivery implements Delivery {
 
@@ -10,10 +10,10 @@ public class AirDelivery implements Delivery {
     // .. and other possible properties
 
 
-    public AirDelivery(String name, Double cost, String duration) {
-        this.name = name;
-        this.cost = cost;
-        this.duration = duration;
+    public AirDelivery() {
+        this.name = "Air";
+        this.cost = 99.99;
+        this.duration = "3 days";
     }
 
     @Override

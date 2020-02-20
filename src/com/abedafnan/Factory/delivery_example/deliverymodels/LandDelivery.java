@@ -1,8 +1,8 @@
-package com.abedafnan.Factory.deliverymodels;
+package com.abedafnan.Factory.delivery_example.deliverymodels;
 
-import com.abedafnan.Factory.Delivery;
+import com.abedafnan.Factory.delivery_example.Delivery;
 
-public class SeaDelivery implements Delivery {
+public class LandDelivery implements Delivery {
 
     private String name;
     private Double cost;
@@ -10,16 +10,16 @@ public class SeaDelivery implements Delivery {
     // .. and other possible properties
 
 
-    public SeaDelivery(String name, Double cost, String duration) {
-        this.name = name;
-        this.cost = cost;
-        this.duration = duration;
+    public LandDelivery() {
+        this.name = "Land";
+        this.cost = 35.00;
+        this.duration = "30 days";
     }
 
     @Override
     public void printDeliveryInfo() {
         System.out.println("---------------------------------------" +
-                "\n Sea Delivery" +
+                "\n Land Delivery" +
                 "\n---------------------------------------" +
                 "\nName: " + name +
                 "\nDuration: " + duration +

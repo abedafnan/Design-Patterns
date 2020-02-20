@@ -1,7 +1,10 @@
-package com.abedafnan.Factory;
+package com.abedafnan.Factory.delivery_example;
 
 import java.util.Scanner;
 
+/**
+ *  SDA Lecture 4
+ */
 public class Main {
 
     public static void main(String[] args) {
