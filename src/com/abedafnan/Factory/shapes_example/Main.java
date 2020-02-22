@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
 
 /**
  *  SDA Lecture 2 & 5
@@ -16,7 +15,6 @@ public class Main extends JFrame {
     private JPanel drawArea;
     private JPanel panel;
 
-    private Random random = new Random();
     private DrawManager drawManager = new DrawManager();
 
     public Main() {
