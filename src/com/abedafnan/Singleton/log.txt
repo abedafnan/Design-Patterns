@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-01T18:37:34.217759500Z</date>
+  <millis>1583087854217</millis>
+  <nanos>759500</nanos>
+  <sequence>0</sequence>
+  <logger>my_logger</logger>
+  <level>INFO</level>
+  <class>com.abedafnan.Singleton.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a test log</message>
+</record>
+</log>
