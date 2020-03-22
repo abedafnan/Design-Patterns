@@ -25,3 +25,8 @@ the subclasses decide which class to instantiate or what code to add.
 
 ### Behavioral Design Patterns:
 They are design patterns that identify common communication patterns among objects or parts of the application.
+
+##### Command
+* The Command design pattern encapsulates commands in objects allowing us to issue requests without knowing the 
+requested operation or the requesting object.
+* It provides options to queue commands, undo/redo actions or do other manipulations.
