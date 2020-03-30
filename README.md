@@ -30,3 +30,9 @@ They are design patterns that identify common communication patterns among objec
 * The Command design pattern encapsulates commands in objects allowing us to issue requests without knowing the 
 requested operation or the requesting object.
 * It provides options to queue commands, undo/redo actions or do other manipulations.
+
+##### State
+* The State design pattern allow an object to change its behavior without changing its class (will keep the code free 
+of the many if/else statements). This is achieved by creating objects that represent various states and a context object 
+whose behavior varies as its state object changes. 
+* It's similar to the concept of finite-state machines.
