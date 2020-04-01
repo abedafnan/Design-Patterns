@@ -40,3 +40,10 @@ whose behavior varies as its state object changes.
 ##### Iterator 
 An Iterator is an object that provides a standard way to examine all elements of any collection (
 without exposing their different implementations).
+
+##### Visitor
+The Visitor pattern represents an operation to be performed on the elements of the object structure. It
+lets you define a new operation without changing the classes of the elements on which it operates (Allow new
+operations without coupling)
+
+[To Be Continued ..]
