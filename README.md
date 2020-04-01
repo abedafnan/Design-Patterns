@@ -36,3 +36,7 @@ requested operation or the requesting object.
 of the many if/else statements). This is achieved by creating objects that represent various states and a context object 
 whose behavior varies as its state object changes. 
 * It's similar to the concept of finite-state machines.
+
+##### Iterator 
+An Iterator is an object that provides a standard way to examine all elements of any collection (
+without exposing their different implementations).
