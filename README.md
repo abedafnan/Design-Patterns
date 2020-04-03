@@ -46,4 +46,7 @@ The Visitor pattern represents an operation to be performed on the elements of t
 lets you define a new operation without changing the classes of the elements on which it operates (Allow new
 operations without coupling)
 
+##### Memento
+Using the Memento design pattern, we can save a snapshot of the state of an object for possible later use.
+
 [To Be Continued ..]
