@@ -26,6 +26,18 @@ the subclasses decide which class to instantiate or what code to add.
 ### Behavioral Design Patterns:
 They are design patterns that identify common communication patterns among objects or parts of the application.
 
+##### Observer
+Observer Pattern defines one-to-many dependency between objects so that when one object changes state, all its dependents 
+are notified and updated automatically.
+
+##### Data Bus
+* Data Bus Pattern Allows sending messages/events between components of an application without them knowing about each other.
+* It is similar to the Observer pattern but supports many-to-many communication.
+
+##### Strategy
+The Strategy Pattern is used in situations when classes differ in their behavior.Isolates different algorithm in separate 
+classes in order to have the ability to select different algorithms at runtime.
+
 ##### Command
 * The Command design pattern encapsulates commands in objects allowing us to issue requests without knowing the 
 requested operation or the requesting object.
