@@ -1,4 +1,4 @@
-package com.abedafnan.Memento;
+package com.abedafnan.Memento.example1;
 
 import java.io.Serializable;
 
