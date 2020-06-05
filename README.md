@@ -61,4 +61,11 @@ operations without coupling)
 ##### Memento
 Using the Memento design pattern, we can save a snapshot of the state of an object for possible later use.
 
+### Structural Design Patterns:
+They are design patterns that make the design process easier by identifying a simple way to realize relationships among 
+entities.
+
+##### Facade
+Facade defines a higher-level interface to a set of interfaces in a subsystem that makes the subsystem easier to use.
+
 [To Be Continued ..]
