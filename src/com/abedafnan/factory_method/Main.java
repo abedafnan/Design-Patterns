@@ -6,6 +6,6 @@ package com.abedafnan.factory_method;
 public class Main {
 
     public static void main(String[] args) {
-
+        ParttimeEmployeeForm eif = new ParttimeEmployeeForm();
     }
 }
