@@ -61,6 +61,10 @@ operations without coupling)
 ##### Memento
 Using the Memento design pattern, we can save a snapshot of the state of an object for possible later use.
 
+##### Chain of Responsibility
+This pattern allows a request to be sent from one object to another, to be handled, making them parts of a chain, 
+without knowing what object will receive and handle that request.
+
 ### Structural Design Patterns:
 They are design patterns that make the design process easier by identifying a simple way to realize relationships among 
 entities.
